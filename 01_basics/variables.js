@@ -6,7 +6,7 @@ var emailID = "night@www.com" // we generally don't use this because of block is
 
 city = "Delhi" // we can also assign the variables as it is without stating it's type (it's generally not used too)
 
-// number = 4567 // this will show error because we are trying to change the contant variable
+// number = 4567 // this will show error because we are trying to change the contant variables
 
 email = "change@gmail.com" // variables can be changed
 
