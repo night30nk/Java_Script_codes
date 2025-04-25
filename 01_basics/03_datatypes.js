@@ -15,3 +15,6 @@ let point // it's values is undefines right now
 
 console.log(typeof point) // undefined variable generally have (undefined) type
 console.log(typeof score) // null vairbale generally have (object) type
+
+// alert(3) // it's undefined behaviour and it's not defined in vs compiler but it's shows diff behaviour in online compiler
+// hence above code will give error right now.
