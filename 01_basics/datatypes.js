@@ -1,5 +1,4 @@
 // here we will see the datatypes present in the javascript
-
 // number, string, boolean, bigint, null, undefined, symbol
 
 console.log(3 + 3) // our code should be readable so we avoid writing unreadable codes
