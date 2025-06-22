@@ -26,9 +26,6 @@ console.log(typeof score) // null vairbale generally have (object) type
 // Primitive are those datataypes which are passed by their copies 
 // 7 types -> String, boolean, null, undefined, Symbol(to represent the uniquness), number, BitInt
 
-
-
-
 const data = 123;
 const BigData = 1234932432648347832479n; // to represent it's BigInt
 
@@ -39,3 +36,23 @@ console.log(ID === anotherID); // print false -> both are diff symbols and both 
 
 // Non-primitive are those which are passed by their refrences
 // 3 types -> Arrays, Objects, Functions.
+
+const makeUp = ["foundation", "cream", "brush", "eye-linear"]; // arrays.
+
+let myObj = {
+    name : "Nisha Kumari",
+    age : 20,
+    section : 'A'
+} // seperated by commas, and initalized in curly braces -> Objects
+
+const myFunc = function(){
+    console.log("Created a first function here");
+}
+
+// console.log(makeUp);
+// console.log(myObj);
+
+// the above thing will print the created arrays and objects 
+// but the below function will not print the detail.
+
+console.log(myFunc); // print [Function : myFunc]
