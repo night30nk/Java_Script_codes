@@ -32,3 +32,6 @@ console.log(null >= 0); // print true
 
 console.log(undefined == 0); // print false
 // in all cases it will print false, because undefined is remained unchanged
+
+// "===" is used for strict check
+console.log("2" === 1) // print false -> because "2" is a string and 1 is a number
