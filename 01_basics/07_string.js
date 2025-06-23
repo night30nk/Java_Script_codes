@@ -23,4 +23,17 @@ console.log(gameName[0]);
 // but we can access them like this only, as I access them in java.
 
 console.log(gameName.length);
-console.log(gameName.toLowerCase());
+console.log(gameName.toLowerCase()); // converts the string to the lowercase
+
+const names = "nisha-kumari-ritu-kumari-chudasama-etc-etc"
+
+console.log(names.split('-')) // split the names on the basis of '-'
+console.log(names.replace('mari', 'udama')) // changes the first kumari to kudama
+
+console.log(names.includes('kumari')) // prints true as kumari is there in the string names
+
+console.log(names.charAt(25))
+console.log(names.indexOf('n')) 
+// both other 'charAt' and 'indexOf' will give the particular index and character which are present right now in the names.
+
+// there are various other functions which are helpful in strings and can be googles using 'mdn' 
