@@ -37,3 +37,5 @@ console.log(names.indexOf('n'))
 // both other 'charAt' and 'indexOf' will give the particular index and character which are present right now in the names.
 
 // there are various other functions which are helpful in strings and can be googles using 'mdn' 
+
+
