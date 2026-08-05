@@ -86,11 +86,32 @@ for (let key in worldCities) {
 console.log(largeCities);
 
 // Challenge 7 
-// using for each in tea array
-console.log();
-let tea = ["green tea", "black tea", "chai", "oolong tea"];
+// using for each in tea array 
+// it executes a provided function once for each array element.
+// so basically in a for-each loop we write a function (a standard way to write a function)
+tea = ["green tea", "black tea", "chai", "oolong tea"];
 let availableTeas = [];
 tea.forEach(element => {
-    console.log(element);
+    if (element === "chai") {
+        return; // we can't use break, because, we will snap out from function but not from for-each loop.
+    }
+    availableTeas.push(element);
 });
+console.log(availableTeas);
+
+// Challenge 8
+city = ["Berlin", "Tokyo", "Sydney", "Paris"];
+let traveledCities = [];
+city.forEach(function(cur) {
+    if (cur === "Sydney") {
+        return;
+    }
+    traveledCities.push(cur);
+});
+console.log(traveledCities); 
+// in the for each loop, we have used another way of writing functions.
+// like for each index of the element, it's creating a function and then when a certain conditions hit, (throw that function)
+
+// Challenge 9
+
 
