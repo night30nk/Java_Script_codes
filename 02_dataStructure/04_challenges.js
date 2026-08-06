@@ -113,5 +113,24 @@ console.log(traveledCities);
 // like for each index of the element, it's creating a function and then when a certain conditions hit, (throw that function)
 
 // Challenge 9
+let number = [2,5,7,9];
+let doubledNumbers = [];
+for (let i = 0; i < number.length; i++) {
+    if (number[i] !== 7) {
+        doubledNumbers.push(number[i]*2);
+    }
+}
+console.log(doubledNumbers);
 
+// Challenge 10 
+tea = ["chai", "green tea", "black tea", "jasmin tea", "herbal tea"];
+let shortTeas = [];
+for (let i = 0; i < tea.length; i++) {
+    let curTea = tea[i].length;
 
+    if (curTea > 10) {
+        break;
+    }
+    shortTeas.push(tea[i]);
+}
+console.log(shortTeas);
