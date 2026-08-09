@@ -107,5 +107,21 @@ const findLongestWord = (arr) => (
     arr.reduce((long, curr) => curr.length > long.length ? curr : long, "")  
 );
 
+// here, the below person is an object and it has two attributes and one function
+// so, using 'this' operator assignes the values which are originally present in the object.
+const person = {
+    name: 'Hitesh',
+    year: '19.5',
+    introduce() {
+        return `Hi, my name is ${this.name} and I am ${this.year} years old`;
+    }
+};
 
+// here, nested function example is there. 
+function outer() {
+    function inner() {
+        return `Inner function called`;
+    }
+    return inner();
+}
 
